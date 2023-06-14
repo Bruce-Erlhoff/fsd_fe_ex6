@@ -1,0 +1,66 @@
+/* set Arial font as default for entire body */
+body {
+    font-family: Arial;
+}
+
+
+.profile {
+    background-color: cornsilk;
+    color:black;
+    font-family: Arial;
+    padding: 20px;
+    border-width: 1px;
+    border-style: double;
+}
+.form {
+    background-color: cornsilk;
+    color:black;
+    font-family: Arial;
+    width: 70%;
+    padding: 20px;
+}
+
+/*  */
+.category h2 {
+    color:chocolate;
+    font-style: italic;
+    border-width: 1px;
+    border-style: double;
+    border-color:black;
+    background-color:antiquewhite;
+    padding-left: 20px;
+}
+.category p {
+    padding-left:20px
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+/* bullet text size */
+li {
+    font-size: medium; 
+}
+/* sub-bullets (list item within list item) text size is smaller */
+li li {
+    font-size: smaller;
+}
+
+input, textarea {
+    width: 70%;
+}
+.left {
+    width: 70%;
+    float: left;
+}
+.right div{
+    width: 30%;
+    float: left;
+}
+img {
+    border-width: 7px;
+    border-color:chocolate;
+    border-style: solid;
+    border-radius: 8rem;
+}
